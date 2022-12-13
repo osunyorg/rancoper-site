@@ -3,6 +3,7 @@ title: >
   Accueil
 breadcrumb_title: "Accueil"
 url: "/"
+
 position: 1
 full_width: true
 bodyclass: 
@@ -20,5 +21,146 @@ header_text: >-
   
 legacy_text: >
   
+blocks:
+  - template: embed
+    title: >-
+      
+    position: 1
+    data:
+      code: >-
+        <script type="text/javascript" src="https://forms.sbc32.com/form.js"></script>
+        
+        <form id="sb_form"
+        
+          onsubmit="process2(
+        
+            'https://services.sarbacane.com/core/v1/forms/contacts/upsert?listID&#x3D;HDKuy2yZQnm5H6UP3J-bsw&amp;formID&#x3D;l3YOFj_FT3iF6ET0UqKyiA&amp;timezone&#x3D;Europe/Paris', 'https://forms.sbc32.com/', '63983a9ac2c831333bfd317b', 'false', 'message',
+        
+            '', 'https://services.sarbacane.com/core/v1/transactional/sendmessage/optin', 'Merci', 'Vos informations ont été ajoutées avec succès.',
+        
+            'Vous allez recevoir un email', 'Vous devrez cliquer sur le lien de confirmation pour valider votre inscription', 'Erreur',
+        
+            'Une erreur inattendue s%27est produite.', 'Le formulaire est en cours d%27édition, veuillez patienter quelques minutes avant d%27essayer à nouveau.', '',
+        
+            '', ''
+        
+          );
+        
+          return false;"
+        
+          method="post">
+        
+          <label id="form-header-title">Nom du formulaire</label>
+        
+        
+        
+          <span style="display: flex;flex-direction: row;">
+        
+            <label id="label-CIVILITY_ID">Civilit&eacute;</label>
+        
+            <div id="form-mandatory">*</div>
+        
+          </span>
+        
+          <div id="div-CIVILITY_ID">
+        
+            <div style="margin-bottom: 13px; display: flex; flex-direction: row;">
+        
+              <label class="control control--radio">
+        
+                <input type="radio" value="Madame" name="CIVILITY_ID" required="true"  sb-form-input/>
+        
+                <div id="indicator-CIVILITY_ID" class="control__indicator"></div>
+        
+              </label>
+        
+              <label id="label-opt-CIVILITY_ID">Madame</label>
+        
+            </div>
+        
+            <div style="margin-bottom: 13px; display: flex; flex-direction: row;">
+        
+              <label class="control control--radio">
+        
+                <input type="radio" value="Monsieur" name="CIVILITY_ID" required="true"  sb-form-input/>
+        
+                <div id="indicator-CIVILITY_ID" class="control__indicator"></div>
+        
+              </label>
+        
+              <label id="label-opt-CIVILITY_ID">Monsieur</label>
+        
+            </div>
+        
+          </div>
+        
+          <span style="display: flex;flex-direction: row;">
+        
+            <label id="label-FIRSTNAME_ID">Pr&eacute;nom</label>
+        
+            <div id="form-mandatory">*</div>
+        
+          </span>
+        
+          <input id="input-FIRSTNAME_ID" type="text" name="FIRSTNAME_ID" required="true" sb-form-input>
+        
+          
+        
+          <span style="display: flex;flex-direction: row;">
+        
+            <label id="label-LASTNAME_ID">Nom</label>
+        
+            <div id="form-mandatory">*</div>
+        
+          </span>
+        
+          <input id="input-LASTNAME_ID" type="text" name="LASTNAME_ID" required="true" sb-form-input>
+        
+          
+        
+          <span style="display: flex;flex-direction: row;">
+        
+            <label id="label-EMAIL_ID">Email</label>
+        
+            <div id="form-mandatory">*</div>
+        
+          </span>
+        
+          <input id="input-email" type="email" name="email" required="true" sb-form-input>
+        
+          
+        
+          <span style="display: flex;flex-direction: row;">
+        
+            <label id="label-PHONE_ID">N&deg; de mobile</label>
+        
+            <div id="form-mandatory">*</div>
+        
+          </span>
+        
+          <input id="input-phone" type="tel" name="phone" required="true" sb-form-input>
+        
+          <div id="div-submitInput" align="left">
+        
+            <button id="submitInput" type="submit" value="VALIDER" class="mobile-FW" ><span style="margin:0;">VALIDER</span>
+        
+        </button>
+        
+            <div class="loader" style="display:none"></div>
+        
+        </div>
+        
+          <label id="form-footer-mandatory">* Champs obligatoires</label>
+        
+        </form>
+        
+        
+
+
+      transcription: >-
+        
+
+
+
 
 ---
