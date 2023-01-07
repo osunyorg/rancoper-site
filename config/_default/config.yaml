@@ -1,19 +1,10 @@
 theme: osuny-hugo-theme-aaa
 
-## LANGUAGE
-defaultContentLanguage: fr
-languageCode: fr
-
-## ADVANCED
-paginate: 18
-enableRobotsTXT: true
-
-## MODULE
-module:
-  _merge: deep
-
-## PARAMS
 params:
-  _merge: deep
-  cookie_banner:
-    enable: false
+  posts:
+    list:
+      show_categories: true
+      truncate_description: 0
+  pages:
+    list:
+      truncate_description: 0
