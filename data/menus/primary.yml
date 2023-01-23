@@ -11,4 +11,8 @@
     target: "/actualites/vie-de-lassociation/"
     kind: category
     children: []
+  - title: Toutes les actualités
+    target: "/actualites/"
+    kind: page
+    children: []
 
