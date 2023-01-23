@@ -1,6 +1,8 @@
 theme: osuny-hugo-theme-aaa
 
 params:
+  breadcrumb:
+    position: after-hero
   posts:
     list:
       show_categories: true
