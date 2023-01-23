@@ -4,9 +4,10 @@ params:
   breadcrumb:
     position: after-hero
   posts:
-    list:
+    index:
+      layout: grid
       show_categories: true
       truncate_description: 0
   pages:
-    list:
+    index:
       truncate_description: 0
