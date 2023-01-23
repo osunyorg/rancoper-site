@@ -2,5 +2,9 @@
 - title: Actualités
   target: "/actualites/"
   kind: page
-  children: []
+  children:
+  - title: Retours d'expérience
+    target: "/actualites/retours-dexperience/"
+    kind: category
+    children: []
 
