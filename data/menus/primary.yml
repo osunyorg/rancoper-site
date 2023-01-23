@@ -7,4 +7,8 @@
     target: "/actualites/retours-dexperience/"
     kind: category
     children: []
+  - title: Vie de l'association
+    target: "/actualites/vie-de-lassociation/"
+    kind: category
+    children: []
 
