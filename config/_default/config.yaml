@@ -1,11 +1,13 @@
 theme: osuny-hugo-theme-aaa
-
+paginate: 18
+enableRobotsTXT: true
+removePathAccents: true
 params:
   breadcrumb:
     position: after-hero
   posts:
     index:
-      layout: grid
+      layout: list
       show_categories: true
       truncate_description: 0
   pages:
