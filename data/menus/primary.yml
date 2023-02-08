@@ -1,18 +1,6 @@
 ---
 - title: Actualités
-  target: "/toutes-les-actualites/"
+  target: "/actualites/"
   kind: page
-  children:
-  - title: Retours d'expérience
-    target: "/toutes-les-actualites/retours-dexperience/"
-    kind: category
-    children: []
-  - title: Vie de l'association
-    target: "/toutes-les-actualites/vie-de-lassociation/"
-    kind: category
-    children: []
-  - title: Toutes les actualités
-    target: "/toutes-les-actualites/"
-    kind: page
-    children: []
+  children: []
 
