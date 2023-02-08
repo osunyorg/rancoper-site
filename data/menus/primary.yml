@@ -55,8 +55,8 @@
     target: "/outils/formations/"
     kind: page
     children: []
-  - title: Formations
-    target: "/outils/formations/"
+  - title: Ressources
+    target: "/outils/ressources/"
     kind: page
     children: []
 - title: Espace adhérents
