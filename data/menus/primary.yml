@@ -43,6 +43,10 @@
     target: "/outils/conseil-minute/"
     kind: page
     children: []
+  - title: Guichet vert
+    target: "/outils/guichet-vert/"
+    kind: page
+    children: []
 - title: Espace adhérents
   target: ''
   kind: url
