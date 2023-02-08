@@ -7,6 +7,10 @@
     target: "/a-propos/presentation/"
     kind: page
     children: []
+  - title: Équipe
+    target: "/a-propos/equipe-1/"
+    kind: page
+    children: []
 - title: Actualités
   target: "/actualites/"
   kind: page
