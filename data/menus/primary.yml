@@ -11,4 +11,8 @@
   target: "/initiatives/"
   kind: page
   children: []
+- title: Outils
+  target: "/outils/"
+  kind: page
+  children: []
 
