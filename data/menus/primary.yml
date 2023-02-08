@@ -55,6 +55,10 @@
     target: "/thematiques/agriculture/"
     kind: page
     children: []
+  - title: Bâtiment
+    target: "/thematiques/batiment/"
+    kind: page
+    children: []
 - title: Outils
   target: "/outils/"
   kind: page
