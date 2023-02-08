@@ -47,6 +47,10 @@
     target: "/outils/guichet-vert/"
     kind: page
     children: []
+  - title: Veille juridique
+    target: "/outils/veille-juridique/"
+    kind: page
+    children: []
 - title: Espace adhérents
   target: ''
   kind: url
