@@ -15,6 +15,10 @@
     target: "/a-propos/partenaires/"
     kind: page
     children: []
+  - title: Adhésion
+    target: "/a-propos/adhesion/"
+    kind: page
+    children: []
 - title: Actualités
   target: "/actualites/"
   kind: page
