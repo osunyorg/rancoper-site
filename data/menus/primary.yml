@@ -31,38 +31,6 @@
   target: "/initiatives/"
   kind: page
   children: []
-- title: Thématiques
-  target: "/thematiques/"
-  kind: page
-  children:
-  - title: Commande publique durable
-    target: "/thematiques/commande-publique-durable/"
-    kind: page
-    children: []
-  - title: Santé environnementale
-    target: "/thematiques/sante-environnementale/"
-    kind: page
-    children: []
-  - title: Économie circulaire
-    target: "/thematiques/economie-circulaire/"
-    kind: page
-    children: []
-  - title: ASER
-    target: "/thematiques/aser/"
-    kind: page
-    children: []
-  - title: Agriculture
-    target: "/thematiques/agriculture/"
-    kind: page
-    children: []
-  - title: Bâtiment
-    target: "/thematiques/batiment/"
-    kind: page
-    children: []
-  - title: Voirie
-    target: "/thematiques/voirie/"
-    kind: page
-    children: []
 - title: Outils
   target: "/outils/"
   kind: page
