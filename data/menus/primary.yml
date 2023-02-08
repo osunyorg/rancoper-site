@@ -7,4 +7,8 @@
   target: "/thematiques/"
   kind: page
   children: []
+- title: Initiatives
+  target: "/initiatives/"
+  kind: page
+  children: []
 
