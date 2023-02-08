@@ -47,6 +47,10 @@
     target: "/thematiques/sante-environnementale/"
     kind: page
     children: []
+  - title: Économie circulaire
+    target: "/thematiques/economie-circulaire/"
+    kind: page
+    children: []
 - title: Outils
   target: "/outils/"
   kind: page
