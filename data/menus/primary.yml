@@ -11,6 +11,10 @@
     target: "/a-propos/equipe-1/"
     kind: page
     children: []
+  - title: Partenaires
+    target: "/a-propos/partenaires/"
+    kind: page
+    children: []
 - title: Actualités
   target: "/actualites/"
   kind: page
