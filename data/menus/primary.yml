@@ -7,12 +7,12 @@
   target: "/actualites/"
   kind: page
   children: []
-- title: Thématiques
-  target: "/thematiques/"
-  kind: page
-  children: []
 - title: Initiatives
   target: "/initiatives/"
+  kind: page
+  children: []
+- title: Thématiques
+  target: "/thematiques/"
   kind: page
   children: []
 - title: Outils
