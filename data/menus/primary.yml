@@ -34,7 +34,11 @@
 - title: Thématiques
   target: "/thematiques/"
   kind: page
-  children: []
+  children:
+  - title: Commande publique durable
+    target: "/thematiques/commande-publique-durable/"
+    kind: page
+    children: []
 - title: Outils
   target: "/outils/"
   kind: page
