@@ -43,6 +43,10 @@
     target: "/thematiques/aser/"
     kind: page
     children: []
+  - title: Santé environnementale
+    target: "/thematiques/sante-environnementale/"
+    kind: page
+    children: []
 - title: Outils
   target: "/outils/"
   kind: page
