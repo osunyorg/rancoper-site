@@ -51,6 +51,10 @@
     target: "/outils/veille-juridique/"
     kind: page
     children: []
+  - title: Formations
+    target: "/outils/formations/"
+    kind: page
+    children: []
 - title: Espace adhérents
   target: ''
   kind: url
