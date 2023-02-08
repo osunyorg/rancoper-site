@@ -2,7 +2,11 @@
 - title: À propos
   target: "/a-propos/"
   kind: page
-  children: []
+  children:
+  - title: Présentation
+    target: "/a-propos/presentation/"
+    kind: page
+    children: []
 - title: Actualités
   target: "/actualites/"
   kind: page
