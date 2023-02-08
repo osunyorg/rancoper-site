@@ -51,6 +51,10 @@
     target: "/thematiques/economie-circulaire/"
     kind: page
     children: []
+  - title: Agriculture
+    target: "/thematiques/agriculture/"
+    kind: page
+    children: []
 - title: Outils
   target: "/outils/"
   kind: page
