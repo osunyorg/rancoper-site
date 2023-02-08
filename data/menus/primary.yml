@@ -38,7 +38,11 @@
 - title: Outils
   target: "/outils/"
   kind: page
-  children: []
+  children:
+  - title: Conseil minute
+    target: "/outils/conseil-minute/"
+    kind: page
+    children: []
 - title: Espace adhérents
   target: ''
   kind: url
