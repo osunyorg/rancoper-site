@@ -39,6 +39,10 @@
     target: "/thematiques/commande-publique-durable/"
     kind: page
     children: []
+  - title: ASER
+    target: "/thematiques/aser/"
+    kind: page
+    children: []
 - title: Outils
   target: "/outils/"
   kind: page
