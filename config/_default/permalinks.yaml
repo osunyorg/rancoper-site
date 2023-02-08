@@ -2,3 +2,5 @@
 
 categories: /actualites/:slug/
 posts: /actualites/:year-:month-:day-:slug/
+persons: /equipe/:slug/
+authors: /equipe/:slug/actualites/
