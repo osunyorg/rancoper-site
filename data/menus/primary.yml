@@ -19,4 +19,8 @@
   target: "/outils/"
   kind: page
   children: []
+- title: Espace adhérents
+  target: ''
+  kind: url
+  children: []
 
