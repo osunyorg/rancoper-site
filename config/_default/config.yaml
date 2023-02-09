@@ -5,7 +5,6 @@ removePathAccents: true
 params:
   breadcrumb:
     position: after-hero
-
   logo:
     header: "/assets/images/logo.svg"
     footer: "/assets/images/logo-white.svg"
