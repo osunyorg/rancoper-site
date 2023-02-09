@@ -5,11 +5,15 @@ removePathAccents: true
 params:
   breadcrumb:
     position: after-hero
+
+  logo:
+    header: "/assets/images/logo.svg"
+    footer: "/assets/images/logo-white.svg"
   posts:
     index:
-      layout: list
+      layout: grid
       show_categories: true
-      truncate_description: 0
+      truncate_description: 200
   pages:
     index:
-      truncate_description: 0
+      truncate_description: 200
