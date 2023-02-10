@@ -60,7 +60,7 @@
     kind: page
     children: []
 - title: Espace adhérents
-  target: ''
+  target: https://adherents.ran-coper.fr
   kind: url
   children: []
 
