@@ -1,9 +1,9 @@
 name: SSH Deployment
 
-# on:
-#   push:
-#     branches:
-#       - main  # Set a branch to deploy
+on:
+  push:
+    branches:
+      - main  # Set a branch to deploy
 jobs:
   deploy:
     runs-on: ubuntu-20.04
