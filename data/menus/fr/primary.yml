@@ -31,16 +31,16 @@
   target: "/initiatives/"
   kind: page
   children: []
+- title: Guichet vert
+  target: "/outils/guichet-vert/"
+  kind: page
+  children: []
 - title: Outils
   target: "/outils/"
   kind: page
   children:
   - title: Conseil minute
     target: "/outils/conseil-minute/"
-    kind: page
-    children: []
-  - title: Guichet vert
-    target: "/outils/guichet-vert/"
     kind: page
     children: []
   - title: Veille juridique
