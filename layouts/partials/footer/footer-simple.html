@@ -1,0 +1,32 @@
+<div class="container">
+  <div class="footer-logo">
+    {{ partial "footer/logo.html" }}
+  </div>
+  {{ $menu := partial "GetMenu" "contact" }}
+  {{ if $menu }}
+    <div class="footer-contact">
+      <p>{{ partial "PrepareText" $menu.title }}</p>
+      {{ partial "commons/menu.html"
+        (dict
+          "items"       $menu.items
+          "level"       1
+          "class"       "nav-contact"
+        )}}
+    </div>
+  {{ end }}
+  {{ $menu = partial "GetMenu" "social" }}
+  {{ if $menu }}
+    <div class="footer-social">
+      <p>{{ partial "PrepareText" $menu.title }}</p>
+      {{ partial "commons/menu.html"
+        (dict
+          "kind"        "social"
+          "level"       1
+          "class"       "nav-social"
+        )}}
+    </div>
+  {{ end }}
+  <div class="footer-legals">
+    {{ partial "footer/legals.html" }}
+  </div>
+</div>

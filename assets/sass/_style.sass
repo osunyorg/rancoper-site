@@ -6,3 +6,35 @@
         &,
         img
             aspect-ratio: 1.5
+
+footer#document-footer
+    > .container
+        align-items: end
+        padding-bottom: 0
+        justify-content: start
+    .footer-contact
+        @extend .footer-social
+    .footer-legals
+        a, small
+            color: rgba($footer-color, 0.5)
+        a:hover
+            color: rgba($footer-color, 1)
+    @include media-breakpoint-up(desktop)
+        > .container
+            min-height: 432px
+        .footer-logo, .footer-legals
+            width: col(3)
+        .footer-logo
+            margin-right: col-offset(1)
+        .footer-social
+            width: col(2)
+            order: inherit
+            text-align: left
+            a
+                text-decoration-color: $footer-color
+        .footer-contact
+            @extend .footer-social
+            margin-right: $grid-gutter
+        .footer-legals
+            margin-left: col-offset(1)
+

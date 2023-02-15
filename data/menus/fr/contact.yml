@@ -1,6 +1,8 @@
 ---
-- title: contact@ran-coper.fr
-  target: mailto:contact@ran-coper.fr
-  kind: url
-  children: []
+title: "Contactez-nous"
+items:
+  - title: contact@ran-coper.fr
+    target: mailto:contact@ran-coper.fr
+    kind: url
+    children: []
 
