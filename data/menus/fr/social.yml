@@ -1,2 +1,6 @@
---- []
+---
+- title: Rapidd
+  target: https://rapidd.developpement-durable.gouv.fr/
+  kind: url
+  children: []
 
