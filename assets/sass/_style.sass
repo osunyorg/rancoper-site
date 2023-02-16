@@ -7,6 +7,16 @@
         img
             aspect-ratio: 1.5
 
+header#document-header
+    .menu 
+        .dropdown-menu
+            padding-bottom: $spacing0
+        .nav-level-2 
+            > li 
+                > a, span
+                    @include meta
+
+
 footer#document-footer
     > .container
         align-items: end
