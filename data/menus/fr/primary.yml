@@ -51,10 +51,6 @@
     target: "/outils/ressources/"
     kind: page
     children: []
-  - title: Journées thématiques
-    target: "/outils/journees-thematiques/"
-    kind: page
-    children: []
 - title: Espace adhérents
   target: https://adherents.ran-coper.fr
   kind: url
