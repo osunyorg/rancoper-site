@@ -36,7 +36,7 @@
   kind: page
   children:
   - title: Conseil minute
-    target: "/outils/conseil-minute/"
+    target: "/outils/conseil-expert/"
     kind: page
     children: []
   - title: Veille juridique
