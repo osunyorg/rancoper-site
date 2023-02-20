@@ -35,7 +35,7 @@
   target: "/outils/"
   kind: page
   children:
-  - title: Conseil minute
+  - title: Conseil d'expert
     target: "/outils/conseil-expert/"
     kind: page
     children: []
