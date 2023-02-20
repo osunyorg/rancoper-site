@@ -51,6 +51,10 @@
     target: "/outils/ressources/"
     kind: page
     children: []
+  - title: Newsletters
+    target: "/outils/newsletters/"
+    kind: page
+    children: []
 - title: Espace adhérents
   target: https://adherents.ran-coper.fr
   kind: url
