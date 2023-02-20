@@ -32,7 +32,7 @@
   kind: page
   children: []
 - title: Guichet vert
-  target: "/outils/guichet-vert/"
+  target: "/guichet-vert/"
   kind: page
   children: []
 - title: Outils
