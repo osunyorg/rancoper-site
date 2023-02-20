@@ -7,10 +7,6 @@
     target: "/a-propos/presentation/"
     kind: page
     children: []
-  - title: Équipe
-    target: "/a-propos/equipe-d-animation/"
-    kind: page
-    children: []
   - title: Adhérents
     target: "/a-propos/adherents/"
     kind: page
