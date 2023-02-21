@@ -1,67 +1,58 @@
 ---
-items: 
-  - title: À propos
-    target: "/a-propos/"
-    kind: page
-    children:
-    - title: Présentation
-      target: "/a-propos/presentation/"
-      kind: page
-      children: []
-    - title: Équipe
-      target: "/a-propos/equipe-1/"
-      kind: page
-      children: []
-    - title: Adhérents
-      target: "/a-propos/adherents/"
-      kind: page
-      children: []
-    - title: Partenaires
-      target: "/a-propos/partenaires/"
-      kind: page
-      children: []
-    - title: Adhésion
-      target: "/a-propos/adhesion/"
-      kind: page
-      children: []
-  - title: Actualités
-    target: "/actualites/"
+- title: À propos
+  target: "/a-propos/"
+  kind: page
+  children:
+  - title: Présentation
+    target: "/a-propos/presentation/"
     kind: page
     children: []
-  - title: Initiatives
-    target: "/initiatives/"
+  - title: Adhérents
+    target: "/a-propos/adherents/"
     kind: page
     children: []
-  - title: Guichet vert
-    target: "/outils/guichet-vert/"
+  - title: Partenaires
+    target: "/a-propos/partenaires/"
     kind: page
     children: []
-  - title: Outils
-    target: "/outils/"
+  - title: Adhésion
+    target: "/a-propos/adhesion/"
     kind: page
-    children:
-    - title: Conseil minute
-      target: "/outils/conseil-minute/"
-      kind: page
-      children: []
-    - title: Veille juridique
-      target: "/outils/veille-juridique/"
-      kind: page
-      children: []
-    - title: Formations
-      target: "/outils/formations/"
-      kind: page
-      children: []
-    - title: Ressources
-      target: "/outils/ressources/"
-      kind: page
-      children: []
-    - title: Journées thématiques
-      target: "/outils/journees-thematiques/"
-      kind: page
-      children: []
-  - title: Espace adhérents
-    target: https://adherents.ran-coper.fr
-    kind: url
     children: []
+- title: Actualités
+  target: "/actualites/"
+  kind: page
+  children: []
+- title: Initiatives
+  target: "/initiatives/"
+  kind: page
+  children: []
+- title: Guichet vert
+  target: "/guichet-vert/"
+  kind: page
+  children: []
+- title: Outils
+  target: "/outils/"
+  kind: page
+  children:
+  - title: Conseil d'expert
+    target: "/outils/conseil-expert/"
+    kind: page
+    children: []
+  - title: Veille juridique
+    target: "/outils/veille-juridique/"
+    kind: page
+    children: []
+  - title: Ressources
+    target: "/outils/ressources/"
+    kind: page
+    children: []
+  - title: Newsletters
+    target: "/outils/newsletters/"
+    kind: page
+    children: []
+- title: Espace adhérents
+  target: https://adherents.ran-coper.fr
+  kind: url
+  children: []
 

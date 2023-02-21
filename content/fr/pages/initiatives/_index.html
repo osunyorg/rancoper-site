@@ -5,14 +5,14 @@ breadcrumb_title: "Initiatives"
 url: "/initiatives/"
 slug: "initiatives"
 
-full_width: false
+full_width: true
 design:
-  full_width: false
+  full_width: true
   toc:
-    present: false
-    offcanvas: false
+    present: true
+    offcanvas: true
 
-position: 10
+position: 4
 translation_key: communication-website-page-9e9e331b-99c3-4c00-96c0-1311462adf1f
 
 bodyclass: 
@@ -23,13 +23,34 @@ description: >
   
 
 summary: >
-  
+  Retrouvez des retours d’expérience, des articles, des retranscriptions d’interviews, etc. Visualisez le réseau, les bonnes pratiques suscitant une dynamique collective sur le territoire.
 description_short: >
-  
+  Retrouvez des retours d’expérience, des articles, des retranscriptions d’interviews, etc. Visualisez le réseau, les bonnes pratiques suscitant une dynamique collective sur le territoire.
 
 header_text: >-
   
 legacy_text: >
   
+blocks:
+  - template: posts
+    title: >-
+      Retours d'expériences
+    position: 1
+    data:
+      category: "/retours-dexperience/"
+      layout: grid
+      posts:
+        - "2022/2022-12-01-cecile-lidec-cdc-pont-audemer-val-de-risle-27"
+        - "2022/2022-01-22-julie-carron-dj-rouen-76"
+        - "2021/2021-10-01-stephane-hardy-ra-direction-de-la-maitrise-des-dechets-de-la-metropole"
+  - template: posts
+    title: >-
+      Actu des territoires
+    position: 2
+    data:
+      category: "/actu-des-territoires/"
+      layout: grid
+      posts:
+
 
 ---
