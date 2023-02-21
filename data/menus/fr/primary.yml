@@ -1,4 +1,6 @@
 ---
+title: Primary
+items:
 - title: À propos
   target: "/a-propos/"
   kind: page
