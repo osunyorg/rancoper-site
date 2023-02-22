@@ -12,6 +12,26 @@ header#document-header
             border-radius: 4px
             min-width: 160px
             text-align: left
+        .nav-level-1
+            align-items: center
+            > li:last-of-type
+                a
+                    background: white
+                    border-radius: 40px
+                    padding: $spacing0 $spacing1
+                    display: table
+                    margin: 20px auto
+                    &::after
+                        display: none
+                    &::before
+                        content: ''
+                        width: 24px
+                        height: 24px
+                        margin-top: -2px
+                        background-image: url('/assets/images/lock.svg')
+                        margin-right: 7px
+                        vertical-align: top
+                        display: inline-block
         .nav-level-2
             > li 
                 > a, span
@@ -22,20 +42,12 @@ header#document-header
                     margin-left: $spacing0
                     a
                         background: white
-                        border-radius: 20px
-                        padding-left: $spacing0
-                        padding-right: $spacing0
+
+                        padding: $spacing0 $spacing0
+                        margin: 0
         @include media-breakpoint-down(desktop)
             .dropdown-menu
                 background: transparent !important
-            .nav-level-1
-                > li:last-of-type
-                    a
-                        background: white
-                        border-radius: 40px
-                        padding: $spacing0 $spacing1
-                        display: table
-                        margin: 20px auto
 
 
 .organizations .organization .media,
