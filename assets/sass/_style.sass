@@ -6,7 +6,7 @@
             aspect-ratio: 1.5
 
 header#document-header
-    .menu 
+    .menu
         .dropdown-menu
             padding-bottom: $spacing0
             border-radius: 4px
@@ -14,6 +14,8 @@ header#document-header
             text-align: left
         .nav-level-1
             align-items: center
+            a
+                font-size: px2rem(18)
             > li:last-of-type
                 a
                     background: white
@@ -42,8 +44,6 @@ header#document-header
                     margin-left: $spacing0
                     a
                         background: white
-
-                        padding: $spacing0 $spacing0
                         margin: 0
         @include media-breakpoint-down(desktop)
             .dropdown-menu
