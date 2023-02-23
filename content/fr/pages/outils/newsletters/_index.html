@@ -38,8 +38,6 @@ blocks:
     position: 1
     data:
       code: >-
-        
-        
         <form id="sb_form"
         
           onsubmit="process2(
@@ -66,9 +64,7 @@ blocks:
         
             <div style="display: flex;flex-direction: row;">
         
-              <label id="label-CIVILITY_ID">Civilité</label>
-        
-              <div id="form-mandatory">*</div>
+              <label id="label-CIVILITY_ID">Civilité *</label>
         
             </div>
         
@@ -76,7 +72,7 @@ blocks:
         
         
         
-              <div class="radio" style="margin-bottom: 13px; display: flex; flex-direction: row;">
+              <div class="radio" style="display: flex; flex-direction: row;">
         
         
         
@@ -84,7 +80,7 @@ blocks:
         
         
         
-                  <input type="radio" value="Madame" name="CIVILITY_ID" required="true" sb-form-input="">
+                  <input type="radio" value="Madame" name="CIVILITY_ID"  id="CIVILITY_ID_0" required="true" sb-form-input="">
         
         
         
@@ -96,7 +92,7 @@ blocks:
         
         
         
-                <label id="label-opt-CIVILITY_ID">Madame</label>
+                <label id="label-opt-CIVILITY_ID" for="CIVILITY_ID_0">Madame</label>
         
         
         
@@ -104,7 +100,7 @@ blocks:
         
         
         
-              <div class="radio" style="margin-bottom: 13px; display: flex; flex-direction: row;">
+              <div class="radio" style="display: flex; flex-direction: row;">
         
         
         
@@ -112,7 +108,7 @@ blocks:
         
         
         
-                  <input type="radio" value="Monsieur" name="CIVILITY_ID" required="true" sb-form-input="">
+                  <input type="radio" value="Monsieur" id="CIVILITY_ID_1" name="CIVILITY_ID" required="true" sb-form-input="">
         
         
         
@@ -124,7 +120,7 @@ blocks:
         
         
         
-                <label id="label-opt-CIVILITY_ID">Monsieur</label>
+                <label id="label-opt-CIVILITY_ID" for="CIVILITY_ID_1">Monsieur</label>
         
         
         
@@ -144,15 +140,7 @@ blocks:
         
             <span style="display: flex;flex-direction: row;">
         
-        
-        
-              <label id="label-FIRSTNAME_ID">Prénom</label>
-        
-        
-        
-              <div id="form-mandatory">*</div>
-        
-        
+              <label id="label-FIRSTNAME_ID" for="input-FIRSTNAME_ID">Prénom *</label>
         
             </span>
         
@@ -172,15 +160,7 @@ blocks:
         
             <span style="display: flex;flex-direction: row;">
         
-        
-        
-              <label id="label-LASTNAME_ID">Nom</label>
-        
-        
-        
-              <div id="form-mandatory">*</div>
-        
-        
+              <label id="label-LASTNAME_ID" for="input-LASTNAME_ID">Nom *</label>
         
             </span>
         
@@ -188,31 +168,15 @@ blocks:
         
             <input id="input-LASTNAME_ID" type="text" name="LASTNAME_ID" required="true" sb-form-input="">
         
-        
-        
           </fieldset>
-        
-        
-        
-        
         
         
         
           <fieldset>
         
-        
-        
             <span style="display: flex;flex-direction: row;">
         
-        
-        
-              <label id="label-EMAIL_ID">Email</label>
-        
-        
-        
-              <div id="form-mandatory">*</div>
-        
-        
+              <label id="label-EMAIL_ID">Email *</label>
         
             </span>
         
@@ -220,35 +184,19 @@ blocks:
         
             <input id="input-email" type="email" name="email" required="true" sb-form-input="">
         
-        
-        
           </fieldset>
         
         
         
           <div id="div-submitInput" class="submit">
         
-        
-        
-            <button id="submitInput" type="submit" value="VALIDER" class="mobile-FW"><span style="margin:0;">VALIDER</span>
-        
-        
-        
-            </button>
-        
-        
+            <button id="submitInput" type="submit" value="VALIDER" class="mobile-FW"><span style="margin:0;">Valider</span></button>
         
             <div class="loader" style="display:none"></div>
         
-        
-        
           </div>
         
-        
-        
           <label class="meta" id="form-footer-mandatory">* Champs obligatoires</label>
-        
-        
         
         </form>
 
