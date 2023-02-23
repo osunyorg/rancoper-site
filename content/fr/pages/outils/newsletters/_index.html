@@ -58,15 +58,15 @@ blocks:
         
           method="post">
         
-          <span style="display: flex;flex-direction: row;">
+          <fieldset style="display: flex;flex-direction: row;">
         
             <label id="label-CIVILITY_ID">Civilit&eacute;</label>
         
             <div id="form-mandatory">*</div>
         
-          </span>
+          </fieldset>
         
-          <div id="div-CIVILITY_ID">
+          <fieldset id="div-CIVILITY_ID">
         
             <div style="margin-bottom: 13px; display: flex; flex-direction: row;">
         
@@ -96,41 +96,51 @@ blocks:
         
             </div>
         
-          </div>
+          </fieldset>
         
-          <span style="display: flex;flex-direction: row;">
+          <fieldset>
         
-            <label id="label-FIRSTNAME_ID">Pr&eacute;nom</label>
+            <span style="display: flex;flex-direction: row;">
         
-            <div id="form-mandatory">*</div>
+              <label id="label-FIRSTNAME_ID">Pr&eacute;nom</label>
         
-          </span>
+              <div id="form-mandatory">*</div>
         
-          <input id="input-FIRSTNAME_ID" type="text" name="FIRSTNAME_ID" required="true" sb-form-input>
+            </span>
+        
+            <input id="input-FIRSTNAME_ID" type="text" name="FIRSTNAME_ID" required="true" sb-form-input>
+        
+          </fieldset>
+        
+          <fieldset>
+        
+            <span style="display: flex;flex-direction: row;">
+        
+              <label id="label-LASTNAME_ID">Nom</label>
+        
+              <div id="form-mandatory">*</div>
+        
+            </span>
+        
+            <input id="input-LASTNAME_ID" type="text" name="LASTNAME_ID" required="true" sb-form-input>
+        
+          </fieldset>
         
           
         
-          <span style="display: flex;flex-direction: row;">
+          <fieldset>
         
-            <label id="label-LASTNAME_ID">Nom</label>
+            <span style="display: flex;flex-direction: row;">
         
-            <div id="form-mandatory">*</div>
+              <label id="label-EMAIL_ID">Email</label>
         
-          </span>
+              <div id="form-mandatory">*</div>
         
-          <input id="input-LASTNAME_ID" type="text" name="LASTNAME_ID" required="true" sb-form-input>
+            </span>
         
-          
+            <input id="input-email" type="email" name="email" required="true" sb-form-input>
         
-          <span style="display: flex;flex-direction: row;">
-        
-            <label id="label-EMAIL_ID">Email</label>
-        
-            <div id="form-mandatory">*</div>
-        
-          </span>
-        
-          <input id="input-email" type="email" name="email" required="true" sb-form-input>
+          </fieldset>
         
           <div id="div-submitInput" align="left">
         
