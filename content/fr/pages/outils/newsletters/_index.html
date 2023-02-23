@@ -38,6 +38,8 @@ blocks:
     position: 1
     data:
       code: >-
+        
+        
         <form id="sb_form"
         
           onsubmit="process2(
@@ -58,113 +60,197 @@ blocks:
         
           method="post">
         
-          <fieldset>
         
-            <div  style="display: flex;flex-direction: row;">
-        
-                <label id="label-CIVILITY_ID">Civilit&eacute;</label>
-        
-                <div id="form-mandatory">*</div>
-        
-            </div>
-        
-        <div  style="display: flex;flex-direction: row;">
-        
-            <div style="margin-bottom: 13px; display: flex; flex-direction: row;">
-        
-              <label class="control control--radio">
-        
-                <input type="radio" value="Madame" name="CIVILITY_ID" required="true"  sb-form-input/>
-        
-                <div id="indicator-CIVILITY_ID" class="control__indicator"></div>
-        
-              </label>
-        
-              <label id="label-opt-CIVILITY_ID">Madame</label>
-        
-            </div>
-        
-            <div style="margin-bottom: 13px; display: flex; flex-direction: row;">
-        
-              <label class="control control--radio">
-        
-                <input type="radio" value="Monsieur" name="CIVILITY_ID" required="true"  sb-form-input/>
-        
-                <div id="indicator-CIVILITY_ID" class="control__indicator"></div>
-        
-              </label>
-        
-              <label id="label-opt-CIVILITY_ID">Monsieur</label>
-        
-            </div>
-        
-            </div>
-        
-        
-        
-          </fieldset>
         
           <fieldset>
         
-            <span style="display: flex;flex-direction: row;">
+            <div style="display: flex;flex-direction: row;">
         
-              <label id="label-FIRSTNAME_ID">Pr&eacute;nom</label>
+              <label id="label-CIVILITY_ID">Civilité</label>
         
               <div id="form-mandatory">*</div>
         
-            </span>
+            </div>
         
-            <input id="input-FIRSTNAME_ID" type="text" name="FIRSTNAME_ID" required="true" sb-form-input>
+            <div style="display: flex;flex-direction: row;">
+        
+        
+        
+              <div class="radio" style="margin-bottom: 13px; display: flex; flex-direction: row;">
+        
+        
+        
+                <label class="control control--radio">
+        
+        
+        
+                  <input type="radio" value="Madame" name="CIVILITY_ID" required="true" sb-form-input="">
+        
+        
+        
+                  <div id="indicator-CIVILITY_ID" class="control__indicator"></div>
+        
+        
+        
+                </label>
+        
+        
+        
+                <label id="label-opt-CIVILITY_ID">Madame</label>
+        
+        
+        
+              </div>
+        
+        
+        
+              <div class="radio" style="margin-bottom: 13px; display: flex; flex-direction: row;">
+        
+        
+        
+                <label class="control control--radio">
+        
+        
+        
+                  <input type="radio" value="Monsieur" name="CIVILITY_ID" required="true" sb-form-input="">
+        
+        
+        
+                  <div id="indicator-CIVILITY_ID" class="control__indicator"></div>
+        
+        
+        
+                </label>
+        
+        
+        
+                <label id="label-opt-CIVILITY_ID">Monsieur</label>
+        
+        
+        
+              </div>
+        
+        
+        
+            </div>
         
           </fieldset>
         
+        
+        
           <fieldset>
         
+        
+        
             <span style="display: flex;flex-direction: row;">
+        
+        
+        
+              <label id="label-FIRSTNAME_ID">Prénom</label>
+        
+        
+        
+              <div id="form-mandatory">*</div>
+        
+        
+        
+            </span>
+        
+        
+        
+            <input id="input-FIRSTNAME_ID" type="text" name="FIRSTNAME_ID" required="true" sb-form-input="">
+        
+        
+        
+          </fieldset>
+        
+        
+        
+          <fieldset>
+        
+        
+        
+            <span style="display: flex;flex-direction: row;">
+        
+        
         
               <label id="label-LASTNAME_ID">Nom</label>
         
+        
+        
               <div id="form-mandatory">*</div>
+        
+        
         
             </span>
         
-            <input id="input-LASTNAME_ID" type="text" name="LASTNAME_ID" required="true" sb-form-input>
+        
+        
+            <input id="input-LASTNAME_ID" type="text" name="LASTNAME_ID" required="true" sb-form-input="">
+        
+        
         
           </fieldset>
         
-          
+        
+        
+        
+        
+        
         
           <fieldset>
         
+        
+        
             <span style="display: flex;flex-direction: row;">
+        
+        
         
               <label id="label-EMAIL_ID">Email</label>
         
+        
+        
               <div id="form-mandatory">*</div>
+        
+        
         
             </span>
         
-            <input id="input-email" type="email" name="email" required="true" sb-form-input>
+        
+        
+            <input id="input-email" type="email" name="email" required="true" sb-form-input="">
+        
+        
         
           </fieldset>
         
-          <div id="div-submitInput" align="left">
         
-            <button id="submitInput" type="submit" value="VALIDER" class="mobile-FW" ><span style="margin:0;">VALIDER</span>
         
-        </button>
+          <div id="div-submitInput" class="submit">
+        
+        
+        
+            <button id="submitInput" type="submit" value="VALIDER" class="mobile-FW"><span style="margin:0;">VALIDER</span>
+        
+        
+        
+            </button>
+        
+        
         
             <div class="loader" style="display:none"></div>
         
-        </div>
         
-          <label id="form-footer-mandatory">* Champs obligatoires</label>
+        
+          </div>
+        
+        
+        
+          <label class="meta" id="form-footer-mandatory">* Champs obligatoires</label>
+        
+        
         
         </form>
-        
-        <script type="text/javascript" src="https://forms.sbc28.com/form.js"></script>
-        
-        
 
 
       transcription: >-
