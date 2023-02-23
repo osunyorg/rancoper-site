@@ -4,7 +4,7 @@ enableRobotsTXT: true
 removePathAccents: true
 params:
   breadcrumb:
-    position: hero-end
+    position: after-hero
   logo:
     header: "/assets/images/logo.svg"
     footer: "/assets/images/logo-white.svg"
