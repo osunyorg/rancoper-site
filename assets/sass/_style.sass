@@ -90,8 +90,13 @@ figcaption
         text-align: right
 
 .breadcrumb-container
-    border-bottom: 1px solid $color-background-alt
     margin-bottom: $spacing2
+    &::after
+        content: ''
+        position: absolute
+        left: 0
+        right: 0
+        border-bottom: 1px solid $color-background-alt
 
 .page__home
     .hero
