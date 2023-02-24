@@ -45,6 +45,10 @@ items:
     target: "/outils/veille-juridique/"
     kind: page
     children: []
+  - title: Formations
+    target: "/outils/formations/"
+    kind: page
+    children: []
   - title: Ressources
     target: "/outils/ressources/"
     kind: page
