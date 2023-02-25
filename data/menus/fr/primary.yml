@@ -45,6 +45,10 @@ items:
     target: "/outils/veille-juridique/"
     kind: page
     children: []
+  - title: Formations
+    target: "/toutes-les-actualites/formations/"
+    kind: category
+    children: []
   - title: Ressources
     target: "/toutes-les-actualites/ressources/"
     kind: category
@@ -52,10 +56,6 @@ items:
   - title: Newsletters
     target: "/outils/newsletters/"
     kind: page
-    children: []
-  - title: Formations
-    target: "/toutes-les-actualites/formations/"
-    kind: category
     children: []
 - title: Espace adhérents
   target: https://adherents.ran-coper.fr
