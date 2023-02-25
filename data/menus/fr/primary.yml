@@ -45,13 +45,13 @@ items:
     target: "/outils/veille-juridique/"
     kind: page
     children: []
-  - title: Ressources
-    target: "/toutes-les-actualites/ressources/"
-    kind: category
-    children: []
   - title: Formations
     target: "/outils/formations/"
     kind: page
+    children: []
+  - title: Ressources
+    target: "/toutes-les-actualites/ressources/"
+    kind: category
     children: []
   - title: Newsletters
     target: "/outils/newsletters/"
