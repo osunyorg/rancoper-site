@@ -49,10 +49,6 @@ items:
     target: "/outils/formations/"
     kind: page
     children: []
-  - title: Ressources
-    target: "/outils/ressources/"
-    kind: page
-    children: []
   - title: Newsletters
     target: "/outils/newsletters/"
     kind: page
