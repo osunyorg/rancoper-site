@@ -41,10 +41,6 @@ items:
     target: "/outils/conseil-expert/"
     kind: page
     children: []
-  - title: Veille juridique
-    target: "/outils/veille-juridique/"
-    kind: page
-    children: []
   - title: Formations
     target: "/toutes-les-actualites/formations/"
     kind: category
