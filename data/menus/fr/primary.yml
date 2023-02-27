@@ -42,7 +42,7 @@ items:
     kind: page
     children: []
   - title: Veille juridique
-    target: "/toutes-les-actualites/juridique-et-reglementaire/"
+    target: "/toutes-les-actualites/veille-juridique/"
     kind: category
     children: []
   - title: Formations
