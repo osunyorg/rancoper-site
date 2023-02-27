@@ -57,6 +57,10 @@ items:
     target: "/outils/newsletters/"
     kind: page
     children: []
+  - title: Veille juridique
+    target: "/toutes-les-actualites/juridique-et-reglementaire/"
+    kind: category
+    children: []
 - title: Espace adhérents
   target: https://adherents.ran-coper.fr
   kind: url
