@@ -21,6 +21,10 @@ items:
     target: "/a-propos/adhesion/"
     kind: page
     children: []
+  - title: TEST PAGE À PROPOS
+    target: "/a-propos/test-page-a-propos/"
+    kind: page
+    children: []
 - title: Actualités
   target: "/actualites/"
   kind: page
