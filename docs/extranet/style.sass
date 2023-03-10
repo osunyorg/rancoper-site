@@ -45,8 +45,10 @@ body
 // Header
 header, .header
     background-color: $color-background-alt
-    .header__additional_data
-        transform: translateY(-60%)
+@media screen and (max-width: 768px)
+    .persons-index, .organizations-index
+        .header__additional_data
+            transform: translateY(-50%)
 
 // Navbar
 nav.navbar
@@ -68,6 +70,8 @@ nav.navbar
         text-decoration: underline
         text-decoration-color: $color-accent
         text-underline-offset: 2px
+        .dropdown-menu
+                background-color: $color-background-alt;
 
 // Breadcrumb
 nav[aria-label="breadcrumb"]
@@ -78,8 +82,10 @@ nav[aria-label="breadcrumb"]
 .extranet
     .block-call_to_action
         background-color: $color-accent !important
+.block-testimonials .testimonials blockquote p
+    color: $color-accent
 
-.posts-index
+.posts-list
     article
         picture
             img
@@ -87,3 +93,7 @@ nav[aria-label="breadcrumb"]
                 width: 100%
                 height: 100%
                 object-fit: cover
+
+// FORM
+.password_with_hints + span
+    top: 37%
