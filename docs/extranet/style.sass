@@ -98,8 +98,12 @@ nav[aria-label="breadcrumb"]
 .documents-list article
     > div 
         background-color: $color-background-alt
+        i
+            color: transparentize($color-accent, .7)
+        span
+            background: transparentize($color-accent, .7)
     p
-        font-weight: 500
+        font-weight: bold
         margin-bottom: 2.5rem
         margin-top: 0.938rem
         span, .text-muted
