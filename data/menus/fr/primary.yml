@@ -53,12 +53,12 @@ items:
     target: "/toutes-les-actualites/ressources/"
     kind: category
     children: []
-  - title: Newsletters
-    target: "/outils/newsletters/"
-    kind: page
-    children: []
   - title: Ateliers et rencontres
     target: "/outils/ateliers-et-rencontres/"
+    kind: page
+    children: []
+  - title: Newsletters
+    target: "/outils/newsletters/"
     kind: page
     children: []
 - title: Espace adhérents
