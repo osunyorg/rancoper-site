@@ -28,6 +28,14 @@
 $color-accent: #134b3e
 $color-background-alt: #E7EDEC
 
+// BUTTONS
+.btn-outline-primary
+    border: 1px solid $color-accent
+    color: $color-accent
+    &:hover
+        background: $color-accent
+        color: white
+
 // TYPOGRAPHY
 
 body
@@ -93,6 +101,10 @@ nav[aria-label="breadcrumb"]
 // POSTS
 .posts-list
     article
+        p b
+            font-weight: bold
+        .text-muted
+            color: black
         picture
             img
                 aspect-ratio: 416 / 275
@@ -136,5 +148,8 @@ nav[aria-label="breadcrumb"]
     margin-bottom: 140px !important
 
 // FORM
-.password_with_hints + span
+.sessions-new .password_with_hints + span,
+.registrations-new .sfpwh-password-toggle,
+    top: 45%
+.account-edit .sfpwh-password-toggle
     top: 37%
