@@ -9,7 +9,7 @@ full_width: true
 design:
   full_width: true
   toc:
-    present: true
+    present: false
     offcanvas: true
 
 position: 4
@@ -29,8 +29,88 @@ description_short: >
 
 header_text: >-
   
-legacy_text: >
-  
+contents:
+  - kind: block
+    template: posts
+    title: >
+      Retours d'expériences
+    position: 1
+    data:
+      category: "/retours-dexperience/"
+      layout: grid
+      posts:
+        - "2022/2022-12-01-cecile-lidec-cdc-pont-audemer-val-de-risle-27"
+        - "2022/2022-01-22-julie-carron-dj-rouen-76"
+        - "2021/2021-10-01-stephane-hardy-ra-direction-de-la-maitrise-des-dechets-de-la-metropole"
+
+
+  - kind: block
+    template: posts
+    title: >
+      Actu des territoires
+    position: 2
+    data:
+      category: "/actu-des-territoires/"
+      layout: grid
+      posts:
+        - "2023/2023-04-06-semaine-des-achats-socialement-et-ecologiquement-responsables"
+
+
+  - kind: heading
+    title: >-
+      Cartographie des adhérents
+    position: 0
+    level: 2
+  - kind: block
+    template: partners
+    title: >
+      
+    position: 3
+    data:
+      layout: map
+      description: >-
+        
+
+
+      with_link: true
+
+      partners:
+        - slug: "centre-de-gestion-de-leure"
+        - slug: "centre-national-de-la-fonction-publique-territoriale"
+        - slug: "ch-dieppeght-caux-maritime"
+        - slug: "ch-jacques-monodght-les-collines-de-normandie"
+        - slug: "chu-hopitaux-de-rouen"
+        - slug: "agglomeration-de-saint-lo"
+        - slug: "communaute-dagglomeration-du-cotentin"
+        - slug: "communaute-dagglomeration-seine-eure"
+        - slug: "communaute-de-communes-cote-ouest-centre-manche"
+        - slug: "communaute-de-communes-pont-audemer-val-de-risle"
+        - slug: "commune-de-caudebec-les-elbeuf"
+        - slug: "commune-de-la-haye"
+        - slug: "commune-du-trait"
+        - slug: "departement-de-leure-en-normandie"
+        - slug: "departement-seine-maritime"
+        - slug: "inolya"
+        - slug: "le-havre-seine-metropole"
+        - slug: "metropole-rouen-normandie"
+        - slug: "ministere-de-la-transition-ecologique-et-solidaire"
+        - slug: "ministere-des-finances-et-des-comptes-publics"
+        - slug: "prefecture-de-normandie-sgar76"
+        - slug: "region-normandie"
+        - slug: "reseau-grandde"
+        - slug: "smedar"
+        - slug: "syndicat-departemental-denergie-de-la-seine-martitime-sde76"
+        - slug: "syndicat-mixte-manche-numerique"
+        - slug: "ville-de-cleon"
+        - slug: "ville-de-darnetal"
+        - slug: "ville-de-malaunay"
+        - slug: "ville-de-mont-saint-aignan"
+        - slug: "ville-de-montivilliers"
+        - slug: "ville-de-petit-quevilly"
+        - slug: "le-havre"
+
+
+
 blocks:
   - template: posts
     title: >-
@@ -54,7 +134,7 @@ blocks:
         - "2023/2023-04-06-semaine-des-achats-socialement-et-ecologiquement-responsables"
   - template: partners
     title: >-
-      Cartographie des adhérents
+      
     position: 3
     data:
       layout: map
