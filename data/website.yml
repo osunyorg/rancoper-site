@@ -1,2 +1,11 @@
 title: >
   RAN COPER
+external_domains:
+  - "osuny-1b4da.kxcdn.com"
+  - "demo.osuny.org"
+  - "osuny.s3.fr-par.scw.cloud"
+  - "plausible.io"
+  - "www.google.com"
+  - "services.sarbacane.com"
+  - "forms.sbc28.com"
+  - "forms.sbc32.com"
