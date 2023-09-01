@@ -5,4 +5,8 @@ items:
   target: https://rapidd.developpement-durable.gouv.fr/
   kind: url
   children: []
+- title: Linked In
+  target: https://www.linkedin.com/company/ran-coper/
+  kind: url
+  children: []
 
