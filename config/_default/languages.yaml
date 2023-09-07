@@ -8,6 +8,7 @@ fr:
   permalinks:
     categories: /toutes-les-actualites/:slug/
     posts: /toutes-les-actualites/:year-:month-:day-:slug/
+    events: /agenda/:year-:month-:day-:slug/
     organizations: /organisations/:slug/
     persons: /equipe/:slug/
     authors: /equipe/:slug/toutes-les-actualites/
