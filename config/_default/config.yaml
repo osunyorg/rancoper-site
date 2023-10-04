@@ -3,6 +3,8 @@ paginate: 18
 enableRobotsTXT: true
 removePathAccents: true
 params:
+  summary:
+    position: content
   breadcrumb:
     position: after-hero
   logo:
