@@ -43,7 +43,9 @@ contents:
     title: >-
       Retours d'expériences
     position: 1
-    heading_level: 2
+    ranks:
+      self: 2
+      children: 3
     data:
       category: "/retours-dexperience/"
       layout: grid
@@ -58,7 +60,9 @@ contents:
     title: >-
       Actu des territoires
     position: 2
-    heading_level: 2
+    ranks:
+      self: 2
+      children: 3
     data:
       category: "/actu-des-territoires/"
       layout: grid
@@ -70,13 +74,15 @@ contents:
     title: >-
       Cartographie des adhérents
     position: 0
-    level: 2
+    rank: 2
   - kind: block
     template: organizations
     title: >-
       
     position: 3
-    heading_level: 3
+    ranks:
+      self: false
+      children: 3
     data:
       layout: map
       description: >-
