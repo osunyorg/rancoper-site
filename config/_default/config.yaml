@@ -18,3 +18,5 @@ params:
   pages:
     index:
       truncate_description: 200
+  debug:
+     productionUrl: "https://ran-coper.fr"
