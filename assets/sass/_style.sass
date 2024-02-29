@@ -8,7 +8,7 @@
 header#document-header
     .menu
         .dropdown-menu
-            padding-bottom: $spacing0
+            padding-bottom: $spacing-2
             border-radius: 4px
             min-width: 200px
             text-align: left
@@ -18,7 +18,7 @@ header#document-header
                 a
                     background: white
                     border-radius: 40px
-                    padding: $spacing0 $spacing1
+                    padding: $spacing-2 $spacing-3
                     display: table
                     margin: 20px auto
                     &::after
@@ -38,7 +38,7 @@ header#document-header
         @include media-breakpoint-up(desktop)
             .nav-level-1
                 > li:last-of-type
-                    margin-left: $spacing0
+                    margin-left: $spacing-2
                     a
                         background: white
                         margin: 0
@@ -46,13 +46,18 @@ header#document-header
             .dropdown-menu
                 background: transparent !important
 
+.blocks
+    .block-organizations--map:last-child
+        margin-bottom: 0
+    .block-call_to_action:last-child
+        margin-bottom: var(--grid-gutter) !important
 
 .organizations .organization .media,
 .organizations__page .document-content .logo picture    
     background: none
     border: 1px solid $color-border
         // object-position: center left
-        // padding: 0 $spacing2 0 0
+        // padding: 0 $spacing-4 0 0
 
 footer#document-footer
     > .container
@@ -69,28 +74,35 @@ footer#document-footer
     @include media-breakpoint-up(desktop)
         > .container
             min-height: 432px
-        .footer-logo, .footer-legals
-            width: col(3)
+        .footer-legals,
+        .footer-social,
+        .footer-contact
+            p
+                margin-bottom: $spacing-2
+        .footer-logo, 
+        .footer-legals
+            width: columns(3)
         .footer-logo
-            margin-right: col-offset(1)
+            width: columns(4)
+            margin-right: var(--grid-gutter)
+            padding-bottom: $spacing-1
         .footer-social
-            width: col(2)
+            width: columns(3)
             order: inherit
             text-align: left
+            margin-right: var(--grid-gutter)
             a
                 text-decoration-color: $footer-color
         .footer-contact
-            @extend .footer-social
-            margin-right: $grid-gutter
-        .footer-legals
-            margin-left: col-offset(1)
+            width: columns(2)
+            margin-right: var(--grid-gutter)
 
 figcaption
     p
         text-align: right
 
 .breadcrumb-container
-    margin-bottom: $spacing2
+    margin-bottom: $spacing-4
     &::after
         content: ''
         position: absolute
@@ -103,10 +115,10 @@ figcaption
         @include media-breakpoint-up(desktop)
             hgroup 
                 h1
-                    font-size: px2rem(100)
+                    font-size: pxToRem(100)
                     line-height: 1.1
                 p
-                    font-size: px2rem(30)
+                    font-size: pxToRem(30)
 
 .block-call_to_action
     .call_to_action
