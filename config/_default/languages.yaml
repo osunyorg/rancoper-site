@@ -9,10 +9,10 @@ fr:
   params:
     social:
   permalinks:
-    posts: /toutes-les-actualites/:year-:month-:day-:slug/
-    posts_categories: /toutes-les-actualites/:slug/
     events: /agenda/:year-:month-:day-:slug/
     events_categories: /agenda/:slug/
+    posts: /toutes-les-actualites/:year-:month-:day-:slug/
+    posts_categories: /toutes-les-actualites/:slug/
     organizations: /organisations/:slug/
     organizations_categories: /organisations/categories/:slug/
     persons: /equipe/:slug/
