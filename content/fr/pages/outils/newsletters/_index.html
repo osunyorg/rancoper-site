@@ -55,15 +55,23 @@ contents_reading_time:
   text: >-
     moins d'une minute
 contents:
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Inscription
-    slug: "inscription"
-    position: 1
-    rank: 2
+    slug: >-
+      inscription
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: embed
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -79,16 +87,23 @@ contents:
 
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Archives
-    slug: "archives"
-    position: 2
-    rank: 2
+    slug: >-
+      archives
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: files
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -234,7 +249,6 @@ contents:
 
           title: >-
             Lettre Mars 2024
-
 
 
 

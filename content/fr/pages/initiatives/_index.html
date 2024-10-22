@@ -48,7 +48,7 @@ header_cta:
   target: ""
   external: false
 contents_reading_time:
-  seconds: 1
+  seconds: 3
   text: >-
     moins d'une minute
 contents:
@@ -56,6 +56,8 @@ contents:
     template: posts
     title: >-
       Retours d'expériences
+    slug: >-
+      retours-d-experiences
     ranks:
       self: 2
       children: 3
@@ -82,6 +84,8 @@ contents:
     template: posts
     title: >-
       Actu des territoires
+    slug: >-
+      actu-des-territoires
     ranks:
       self: 2
       children: 3
@@ -104,15 +108,23 @@ contents:
         - "2024/2024-03-13-julien-bertel-charge-de-projet-strategie-dachats-a-la-communaute-dagglomeration-le-cotentin-50"
 
 
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Cartographie des adhérents
-    slug: "cartographie-des-adherents"
-    position: 1
-    rank: 2
+    slug: >-
+      cartographie-des-adherents
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: organizations
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -161,7 +173,6 @@ contents:
         - slug: "ville-de-montivilliers"
         - slug: "ville-de-petit-quevilly"
         - slug: "ville-du-havre"
-
 
 
 

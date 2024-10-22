@@ -59,19 +59,27 @@ header_cta:
   target: ""
   external: false
 contents_reading_time:
-  seconds: 50
+  seconds: 52
   text: >-
     1 minute
 contents:
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Nous œuvrons pour changer les habitudes
-    slug: "nous-oeuvrons-pour-changer-les-habitudes"
-    position: 1
-    rank: 2
+    slug: >-
+      nous-oeuvrons-pour-changer-les-habitudes
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: chapter
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -99,6 +107,8 @@ contents:
     template: call_to_action
     title: >-
       Les thématiques
+    slug: >-
+      les-thematiques
     ranks:
       self: 3
     data:
@@ -128,6 +138,8 @@ contents:
     template: posts
     title: >-
       Nos actualités
+    slug: >-
+      nos-actualites
     ranks:
       self: 3
       children: 4
@@ -153,16 +165,23 @@ contents:
         - "2024/2024-07-15-ecoconstruction-la-region-normandie-poursuit-son-soutien-en-faveur-de-lecoconstruction"
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Site éco-conçu
-    slug: "site-eco-concu"
-    position: 2
-    rank: 2
+    slug: >-
+      site-eco-concu
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: key_figures
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -193,7 +212,6 @@ contents:
 
           description: >-
             <p>Équivalent carbone générée à chaque vue de page</p>
-
 
 
 
