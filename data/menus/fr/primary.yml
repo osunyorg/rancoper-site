@@ -9,37 +9,45 @@ items:
     target: "/a-propos/presentation/"
     kind: page
     children: []
+    path: "/pages/a-propos/presentation"
     file: content/fr/pages/a-propos/presentation/_index.html
   - title: Adhérents
     target: "/a-propos/adherents/"
     kind: page
     children: []
+    path: "/pages/a-propos/adherents"
     file: content/fr/pages/a-propos/adherents/_index.html
   - title: Partenaires
     target: "/a-propos/partenaires/"
     kind: page
     children: []
+    path: "/pages/a-propos/partenaires"
     file: content/fr/pages/a-propos/partenaires/_index.html
   - title: Adhésion
     target: "/a-propos/adhesion/"
     kind: page
     children: []
+    path: "/pages/a-propos/adhesion"
     file: content/fr/pages/a-propos/adhesion/_index.html
+  path: "/pages/a-propos"
   file: content/fr/pages/a-propos/_index.html
 - title: Actualités
   target: "/actualites/"
   kind: page
   children: []
+  path: "/pages/actualites"
   file: content/fr/pages/actualites/_index.html
 - title: Initiatives
   target: "/initiatives/"
   kind: page
   children: []
+  path: "/pages/initiatives"
   file: content/fr/pages/initiatives/_index.html
 - title: Guichet vert
   target: "/guichet-vert/"
   kind: page
   children: []
+  path: "/pages/guichet-vert"
   file: content/fr/pages/guichet-vert/_index.html
 - title: Outils
   target: "/outils/"
@@ -49,32 +57,39 @@ items:
     target: "/outils/conseil-expert/"
     kind: page
     children: []
+    path: "/pages/outils/conseil-expert"
     file: content/fr/pages/outils/conseil-expert/_index.html
   - title: Veille juridique
     target: "/toutes-les-actualites/veille-juridique/"
     kind: category
     children: []
+    path: "/posts_categories/veille-juridique"
     file: content/fr/posts_categories/veille-juridique/_index.html
   - title: Formations
     target: "/toutes-les-actualites/formations/"
     kind: category
     children: []
+    path: "/posts_categories/formations"
     file: content/fr/posts_categories/formations/_index.html
   - title: Ressources
     target: "/toutes-les-actualites/ressources/"
     kind: category
     children: []
+    path: "/posts_categories/ressources"
     file: content/fr/posts_categories/ressources/_index.html
   - title: Ateliers et rencontres
     target: "/outils/ateliers-et-rencontres/"
     kind: page
     children: []
+    path: "/pages/outils/ateliers-et-rencontres"
     file: content/fr/pages/outils/ateliers-et-rencontres/_index.html
   - title: Newsletters
     target: "/outils/newsletters/"
     kind: page
     children: []
+    path: "/pages/outils/newsletters"
     file: content/fr/pages/outils/newsletters/_index.html
+  path: "/pages/outils"
   file: content/fr/pages/outils/_index.html
 - title: Espace adhérents
   target: https://adherents.ran-coper.fr
