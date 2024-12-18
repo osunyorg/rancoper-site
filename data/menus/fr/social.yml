@@ -4,9 +4,11 @@ items:
 - title: Rapidd
   target: https://rapidd.developpement-durable.gouv.fr/
   kind: url
+  new_tab: true
   children: []
 - title: Linked In
   target: https://www.linkedin.com/company/ran-coper/
   kind: url
+  new_tab: true
   children: []
 
