@@ -2,6 +2,11 @@
 
 baseURL: https://ran-coper.fr
 
+## OSUNY
+osuny:
+  website:
+    id: 7d8628d7-3b6e-4058-a4e7-c7a8b0237007
+
 ## LANGUAGE
 defaultContentLanguage: fr
 defaultContentLanguageInSubdir: false
