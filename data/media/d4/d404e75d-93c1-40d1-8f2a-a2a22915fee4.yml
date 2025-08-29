@@ -1,7 +1,10 @@
 ---
 name: formation_ran_coper.jpg
 size: 24768
-format: square
+width: 750
+height: 500
+ratio: 1.5
+format: landscape
 url: https://rancoper.osuny.org/media/eyJfcmFpbHMiOnsiZGF0YSI6ImQ0MDRlNzVkLTkzYzEtNDBkMS04ZjJhLWEyYTIyOTE1ZmVlNCIsInB1ciI6ImJsb2JfaWQifX0=--8275f35afe9626bbb312e9ace95568c0058dc3db/formation_ran_coper.jpg
 direct_url: https://osuny.s3.fr-par.scw.cloud/vbw5c3ygup3x2r5kqv637dp0hfqs
 download_url: https://rancoper.osuny.org/media/download/eyJfcmFpbHMiOnsiZGF0YSI6ImQ0MDRlNzVkLTkzYzEtNDBkMS04ZjJhLWEyYTIyOTE1ZmVlNCIsInB1ciI6ImJsb2JfaWQifX0=--8275f35afe9626bbb312e9ace95568c0058dc3db
