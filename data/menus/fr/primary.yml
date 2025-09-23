@@ -28,12 +28,12 @@ items:
     path: "/pages/a-propos/partenaires"
     file: content/fr/pages/a-propos/partenaires/_index.html
   - title: Adhésion
-    target: "/a-propos/adhesion/"
+    target: "/adhesion/"
     kind: page
     new_tab: false
     children: []
-    path: "/pages/a-propos/adhesion"
-    file: content/fr/pages/a-propos/adhesion/_index.html
+    path: "/pages/adhesion"
+    file: content/fr/pages/adhesion/_index.html
   path: "/pages/a-propos"
   file: content/fr/pages/a-propos/_index.html
 - title: Actualités
