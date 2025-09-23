@@ -27,13 +27,6 @@ items:
     children: []
     path: "/pages/a-propos/partenaires"
     file: content/fr/pages/a-propos/partenaires/_index.html
-  - title: Adhésion
-    target: "/adhesion/"
-    kind: page
-    new_tab: false
-    children: []
-    path: "/pages/adhesion"
-    file: content/fr/pages/adhesion/_index.html
   path: "/pages/a-propos"
   file: content/fr/pages/a-propos/_index.html
 - title: Actualités
@@ -43,6 +36,13 @@ items:
   children: []
   path: "/pages/actualites"
   file: content/fr/pages/actualites/_index.html
+- title: Adhésion
+  target: "/adhesion/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/pages/adhesion"
+  file: content/fr/pages/adhesion/_index.html
 - title: Initiatives
   target: "/initiatives/"
   kind: page
