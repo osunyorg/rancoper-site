@@ -2,13 +2,17 @@
 title: Réseaux sociaux
 items:
 - title: Rapidd
+  slug: rapidd
   target: https://rapidd.developpement-durable.gouv.fr/
   kind: url
   new_tab: true
   children: []
+  descendants_targets: []
 - title: Linked In
+  slug: linked-in
   target: https://www.linkedin.com/company/ran-coper/
   kind: url
   new_tab: true
   children: []
+  descendants_targets: []
 

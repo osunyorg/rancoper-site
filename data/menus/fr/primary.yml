@@ -2,113 +2,154 @@
 title: Primary
 items:
 - title: À propos
+  slug: a-propos
   target: "/a-propos/"
   kind: page
   new_tab: false
   children:
   - title: Présentation
+    slug: presentation
     target: "/a-propos/presentation/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/a-propos/presentation"
     file: content/fr/pages/a-propos/presentation/_index.html
   - title: Adhérents
+    slug: adherents
     target: "/a-propos/adherents/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/a-propos/adherents"
     file: content/fr/pages/a-propos/adherents/_index.html
   - title: Partenaires
+    slug: partenaires
     target: "/a-propos/partenaires/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/a-propos/partenaires"
     file: content/fr/pages/a-propos/partenaires/_index.html
+  descendants_targets:
+  - "/a-propos/adherents/"
+  - "/a-propos/partenaires/"
+  - "/a-propos/presentation/"
   path: "/pages/a-propos"
   file: content/fr/pages/a-propos/_index.html
 - title: Actualités
+  slug: actualites
   target: "/actualites/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/actualites"
   file: content/fr/pages/actualites/_index.html
 - title: Adhésion
+  slug: adhesion
   target: "/adhesion/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/adhesion"
   file: content/fr/pages/adhesion/_index.html
 - title: Initiatives
+  slug: initiatives
   target: "/initiatives/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/initiatives"
   file: content/fr/pages/initiatives/_index.html
 - title: Guichet vert
+  slug: guichet-vert
   target: "/guichet-vert/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/guichet-vert"
   file: content/fr/pages/guichet-vert/_index.html
 - title: Outils
+  slug: outils
   target: "/outils/"
   kind: page
   new_tab: false
   children:
   - title: Conseil d'expert
+    slug: conseil-d-expert
     target: "/outils/conseil-expert/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/outils/conseil-expert"
     file: content/fr/pages/outils/conseil-expert/_index.html
   - title: Veille juridique
+    slug: veille-juridique
     target: "/toutes-les-actualites/veille-juridique/"
     kind: category
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/posts_categories/veille-juridique"
     file: content/fr/posts_categories/veille-juridique/_index.html
   - title: Formations
+    slug: formations
     target: "/toutes-les-actualites/formations/"
     kind: category
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/posts_categories/formations"
     file: content/fr/posts_categories/formations/_index.html
   - title: Ressources
+    slug: ressources
     target: "/toutes-les-actualites/ressources/"
     kind: category
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/posts_categories/ressources"
     file: content/fr/posts_categories/ressources/_index.html
   - title: Ateliers et rencontres
+    slug: ateliers-et-rencontres
     target: "/outils/ateliers-et-rencontres/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/outils/ateliers-et-rencontres"
     file: content/fr/pages/outils/ateliers-et-rencontres/_index.html
   - title: Newsletters
+    slug: newsletters
     target: "/outils/newsletters/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/outils/newsletters"
     file: content/fr/pages/outils/newsletters/_index.html
+  descendants_targets:
+  - "/outils/ateliers-et-rencontres/"
+  - "/outils/conseil-expert/"
+  - "/outils/newsletters/"
+  - "/toutes-les-actualites/formations/"
+  - "/toutes-les-actualites/ressources/"
+  - "/toutes-les-actualites/veille-juridique/"
   path: "/pages/outils"
   file: content/fr/pages/outils/_index.html
 - title: Espace adhérents
+  slug: espace-adherents
   target: https://adherents.ran-coper.fr
   kind: url
   new_tab: true
   children: []
+  descendants_targets: []
 

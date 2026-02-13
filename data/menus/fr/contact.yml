@@ -2,8 +2,10 @@
 title: Contactez-nous
 items:
 - title: contact@ran-coper.fr
+  slug: contact-ran-coper-fr
   target: mailto:contact@ran-coper.fr
   kind: url
   new_tab: false
   children: []
+  descendants_targets: []
 
