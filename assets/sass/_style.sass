@@ -14,6 +14,8 @@ header#document-header
             text-align: left
         .nav-level-1
             align-items: center
+            > li > a
+                @include small
             > li:last-of-type
                 a
                     background: white
@@ -79,15 +81,13 @@ footer#document-footer
         .footer-legals,
         .footer-social,
         .footer-contact
-            p
+            p:not(:last-child)
                 margin-bottom: $spacing-2
-        .footer-logo, 
         .footer-legals
             width: columns(3)
         .footer-logo
             width: columns(4)
             margin-right: var(--grid-gutter)
-            padding-bottom: $spacing-1
         .footer-social
             width: columns(3)
             order: inherit
@@ -135,3 +135,8 @@ figcaption
             .media
                 img
                     mix-blend-mode: multiply
+
+[class$="-categories"]
+    li
+        a
+            @include small

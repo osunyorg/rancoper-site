@@ -21,4 +21,4 @@ params:
     index:
       truncate_description: 200
   debug:
-     productionUrl: "https://ran-coper.fr"
+      productionUrl: "https://ran-coper.fr"
