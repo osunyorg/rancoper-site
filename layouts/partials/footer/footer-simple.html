@@ -5,7 +5,7 @@
   {{ $menu := partial "GetMenu" "contact" }}
   {{ if $menu }}
     <div class="footer-contact">
-      <p>{{ partial "PrepareText" $menu.title }}</p>
+      <p>{{ safeHTML $menu.title }}</p>
       {{ partial "commons/menu.html" (dict
         "kind" "contact"
         "class" "nav-contact"
@@ -15,7 +15,7 @@
   {{ $menu = partial "GetMenu" "social" }}
   {{ if $menu }}
     <div class="footer-social">
-      <p>{{ partial "PrepareText" $menu.title }}</p>
+      <p>{{ safeHTML $menu.title }}</p>
       {{ partial "commons/menu.html" (dict
         "kind" "social"
         "class" "nav-social"
