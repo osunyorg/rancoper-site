@@ -6,6 +6,6 @@ allowed_domains:
   - "osuny.s3.fr-par.scw.cloud"
   - "tile.openstreetmap.org"
   - "plausible.io"
-  - "www.google.com"
   - "services.sarbacane.com"
   - "forms.sbc28.com"
+  - "www.google.com"
